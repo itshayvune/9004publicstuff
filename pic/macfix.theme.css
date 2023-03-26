@@ -1,5 +1,5 @@
 /**
- * @name macfix
+ * @name macfix 2.0
  * @author Disease#5663
  * @version 1.0.11
  * @description macOS with barely any customization.
@@ -11,6 +11,9 @@
 */
 
 @import url('https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/Solana.css');
+@import url('https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css');
+@import url('https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/addon/mac-titlebar.css');
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css');
 @import url('https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css');
 @import url('https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/addon/mac-titlebar.css');
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css');
@@ -55,10 +58,10 @@
   --floating-background-lightness: 0;
   --background-floating-opacity: 1;
   --enable-floating-transparency: 1;
-  --custom-font-display: "";
-  --custom-font-regular: "";
-  --custom-font-primary: "";
-  --custom-font-code: "";
+  --custom-font-display: SF Pro Display;
+  --custom-font-regular: SF Pro Display;
+  --custom-font-primary: SF Pro Display;
+  --custom-font-code: Cascadia Mono;
   --enable-blur: 1;
 }
 
